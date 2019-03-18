@@ -70,7 +70,7 @@ for k in range (0,j):
         sheet1.write(k, z, words[z]) 
    
 
-wb.save('/Users/nikhilanu/Desktop/xlwt example.xls')
+wb.save('/Users/Desktop/xlwt example.xls')
 
 cap.release()
 cv2.destroyAllWindows()
